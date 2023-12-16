@@ -1,4 +1,5 @@
 #include <Arduino.h>
+#include "configPin.h"
 // Timer variables
 hw_timer_t *timer = NULL;
 portMUX_TYPE timerMux = portMUX_INITIALIZER_UNLOCKED;
